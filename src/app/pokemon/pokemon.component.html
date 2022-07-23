@@ -1,0 +1,105 @@
+<div class="container">
+    <div id="card">
+        <div class="title">Card Object</div>
+        <hr>
+        <div class="subtitle is-4">name <em>string</em></div>
+            <p>The name of the card</p>
+        <hr>
+        <div class="subtitle is-4">sequenceNumber <em>integer</em></div>
+            <p>The sequential number of the card (applicable to Secret Rares).</p>
+        <hr>
+        <div class="subtitle is-4">printedNumber <em>integer</em></div>
+            <p>The number printed on the card, will be the same as <code>sequenceNumber</code> almost always. Is relevant for Promotional cards such as <code>SWSH001</code></p>
+        <hr>
+        <div class="subtitle is-4">hp <em>int</em></div>
+            <p>The amount of HP the card has. If it does not have hp, then the value will be <code>-1</code>. </p>
+        <hr>
+        <div class="subtitle is-4">type <em>string</em></div>
+            <p>The energy type the card is.</p>
+        <hr>
+        <div class="subtitle is-4">evolvesFrom <em>string</em></div>
+            <p>If the card evolves from another card, this field will denote the name of the pre-evolution. </p>
+        <hr>
+        <div class="subtitle is-4">effect <em>string</em></div>
+            <p>Describes the card&#39;s effect. Mainly for Trainers and Special Energies. </p>
+        <hr>
+        <div class="subtitle is-4">attacks <em>string</em></div>
+            <p>Unparsed string describing all attacks the card has. Includes energy cost, attack name, attack damage, and any description or further effects. </p>
+        <hr>
+        <div class="subtitle is-4">rules <em>string</em></div>
+            <p>Describes rules the card is bound to. Mainly for cards with a Rule Box and certain Trainers.</p>
+        <hr>
+        <div class="subtitle is-4">weakness <em>string</em></div>
+            <p>The type of energy the card is weak to. Does not include weakness modifier, only the type. </p>
+        <hr>
+        <div class="subtitle is-4">resistance <em>string</em></div>
+            <p>The type of energy the card is resistant to. Does not include resistance modifier, only the type. </p>
+        <hr>
+        <div class="subtitle is-4">retreatCost <em>string</em></div>
+            <p>The amount of energy required to retreat. </p>
+        <hr>
+        <div class="subtitle is-4">cardType <em>string</em></div>
+            <p>The subset that the card falls into. For example, <code>Single Strike Pokemon</code>, <code>Pokemon VMAX</code>, etc.</p>
+        <hr>
+        <div class="subtitle is-4">illustrator <em>string</em></div>
+            <p>The card art&#39;s illustrator.</p>
+        <hr>
+        <div class="subtitle is-4">setName <em>string</em></div>
+            <p>The name of the set which the card belongs to.</p>
+        <hr>
+        <div class="subtitle is-4">imageUrl <em>string</em></div>
+            <p>The url pointing to the card&#39;s image. If there is no card image, then this will instead point to <code>https://assets.tcgcollector.com/build/images/default-card-image.789f6232.png</code>.</p>
+        <hr>
+        <div class="subtitle is-4">cardUrl <em>string</em></div>
+            <p>The URL which leads to the original card URL data. </p>
+        <hr>
+    </div>
+    <div id="set">
+        <div class="title">Set Object</div>
+        <hr>
+        <div class="subtitle is-4">name <em>string</em></div>
+            <p>The name of the set.</p>
+        <hr>
+        <div class="subtitle is-4">year <em>string</em></div>
+            <p>The year the set was released.</p>
+        <hr>
+        <div class="subtitle is-4">total <em>integer</em></div>
+            <p>The total number of cards in the set.</p>
+        <hr>
+        <div class="subtitle is-4">printedTotal <em>integer</em></div>
+            <p>The number of cards in the set that is printed on the card. This differs from the set's <code>total</code> in sets with Secret Rare cards. </p>
+        <hr>
+        <div class="subtitle is-4">language <em>string</em></div>
+            <p>The language that the card is printed in. </p>
+        <hr>
+        <div class="subtitle is-4">setUrl <em>string</em></div>
+            <p>The URL to a page which has more information about the set.</p>
+        <hr>
+        <div class="subtitle is-4">shorthand <em>string</em></div>
+            <p>The shorthand code for the set. </p>
+        <hr>
+        <div class="subtitle is-4">image <em>string</em></div>
+            <p>A URL to the official set&#39;s image. </p>
+        <hr>
+    </div>
+    <div id="queries">
+        <div class="title">
+            API Queries
+        </div>
+        <div class="subtitle is-3">Card Queries</div>
+        <div class="subtitle is-3">Set Queries</div>
+        <div class="subtitle is-4">Get All Sets</div>
+        <p>
+            
+        </p>
+        <div class="subtitle is-4">Get A Set</div>
+        <p>
+            
+        </p>
+    </div>
+    <div id="examples">
+        <div class="title">
+            Examples
+        </div>
+    </div>
+</div>
