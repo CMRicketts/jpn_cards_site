@@ -1,0 +1,48 @@
+site_name: JPN-API
+
+extra:
+  homepage: "home"
+
+theme:
+  name: material
+
+  icon:
+    logo: material/alpha-j-circle
+
+  features:
+    - navigation.top
+    # - navigation.expand
+
+  palette: 
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+nav:
+  - Home: "home.md"
+  - 'API Documentation': 
+    - "Japanese Pokemon TCG":
+      - "Version 2": 'api_docs/pokemon/v2.md'
+      - "Version 1": "api_docs/pokemon/v1.md"
+    - "Dragonball Super TCG": "api_docs/dbz.md"
+    - "Digimon CCG": "api_docs/digimon.md"
+  - About: 
+    - "FAQs": "about/faq.md"
+    - "About the API": "about/about.md"
+    - "Contribute": "about/contribute.md"
+    - "Donate": "https://google.com"
