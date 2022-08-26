@@ -1,7 +1,14 @@
 site_name: JPN-API
 
+copyright: "This website is not produced, endorsed, supported, or affiliated with Nintendo, The Pokémon Company, Digimon, DRAGON BALL SUPER CARD GAME, Bandai Namco, or my employer."
+
 extra:
   homepage: "home"
+  social: 
+    - icon: fontawesome/brands/discord
+      link: "https://discord.gg/ur69hxZ8rm"
+    - icon: fontawesome/brands/github
+      link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 
 theme:
   name: material
@@ -11,7 +18,6 @@ theme:
 
   features:
     - navigation.top
-    # - navigation.expand
 
   palette: 
     - media: "(prefers-color-scheme)"
@@ -37,8 +43,12 @@ nav:
   - Home: "home.md"
   - 'API Documentation': 
     - "Japanese Pokemon TCG":
-      - "Version 2": 'api_docs/pokemon/v2.md'
-      - "Version 1": "api_docs/pokemon/v1.md"
+      - "Version 2": 
+        - "Objects": 'api_docs/pokemon/v2/v2_obj.md'
+        - "API Queries": 'api_docs/pokemon/v2/v2_api.md'
+      - "Version 1": 
+        - "Objects": 'api_docs/pokemon/v1/v1_obj.md'
+        - "API Queries": "api_docs/pokemon/v1/v1_api.md"
     - "Dragonball Super TCG": "api_docs/dbz.md"
     - "Digimon CCG": "api_docs/digimon.md"
   - About: 

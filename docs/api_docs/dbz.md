@@ -1,9 +1,3 @@
 # Dragon Ball Super
 
-card
-
-set
-
-queries
-
-examples
+_DOCUMENTATION COMING SOON_

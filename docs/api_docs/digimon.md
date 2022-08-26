@@ -1,9 +1,3 @@
 # Digimon CCG
 
-card
-
-set
-
-queries
-
-examples
+_DOCUMENTATION COMING SOON_

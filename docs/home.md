@@ -6,4 +6,4 @@ Currently I am focusing on developing this site and fleshing out the Japanese Po
 
 ### Join Our Community
 
-Discord link: https://discord.gg/ur69hxZ8rm
+Discord and GitHub links are in the footer. I look forward to meeting you!
