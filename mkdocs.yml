@@ -18,6 +18,7 @@ theme:
 
   features:
     - navigation.top
+    - navigation.expand
 
   palette: 
     - media: "(prefers-color-scheme)"
@@ -54,5 +55,6 @@ nav:
   - About: 
     - "FAQs": "about/faq.md"
     - "About the API": "about/about.md"
+    - "Contact": "about/contact.md"
     - "Contribute": "about/contribute.md"
-    - "Donate": "https://google.com"
+    - "Donate": "https://ko-fi.com/jpnapi"
