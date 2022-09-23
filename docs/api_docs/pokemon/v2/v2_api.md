@@ -12,7 +12,7 @@ Get a single card's information based on its unique identifier.
 
 ##### HTTP Request
 ```bash
-GET https://jpn-cards.com/v2/card/id=<id>
+GET https://www.jpn-cards.com/v2/card/id=<id>
 ```
 
 URL Parameters:
@@ -28,7 +28,7 @@ URL Parameters:
 HTTP Request:
 
 ```bash
-GET https://jpn-cards.com/v2/card/id=11002
+GET https://www.jpn-cards.com/v2/card/id=11002
 ```
 
 Response:
@@ -117,7 +117,7 @@ Get one or more cards based on more broad metadata.
 
 ##### HTTP Request
 ```bash
-GET https://jpn-cards.com/v2/card/
+GET https://www.jpn-cards.com/v2/card/
 ```
 
 URL Parameters:
@@ -248,7 +248,7 @@ Get a single set's information based on its unique identifier.
 
 ##### HTTP Request
 ```bash
-GET https://jpn-cards.com/v2/set/<id>
+GET https://www.jpn-cards.com/v2/set/<id>
 ```
 
 URL Parameters:
@@ -264,7 +264,7 @@ URL Parameters:
 HTTP Request:
 
 ```bash
-GET https://jpn-cards.com/v2/set/1
+GET https://www.jpn-cards.com/v2/set/1
 ```
 
 Response:
@@ -292,7 +292,7 @@ Get all sets and their information.
 
 ##### HTTP Request
 ```bash
-GET https://jpn-cards.com/v2/set/
+GET https://www.jpn-cards.com/v2/set/
 ```
 
 URL Parameters:
@@ -306,7 +306,7 @@ None
 HTTP Request:
 
 ```bash
-GET https://jpn-cards.com/v2/set/
+GET https://www.jpn-cards.com/v2/set/
 ```
 
 Response:
