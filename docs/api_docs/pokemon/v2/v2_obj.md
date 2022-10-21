@@ -139,6 +139,13 @@ The number printed on the card, will be the same as `sequenceNumber` almost alwa
 
 * * *
 
+### uuid _integer_
+
+A stable id for each card. Output is an eight digit integer which is unique for each card. While the cards' `id` may change over time, the `uuid` should always remain stable and constant. 
+
+* * *
+
+
 ## Set Object
 
 * * *

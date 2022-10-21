@@ -132,6 +132,7 @@ All URL parameters are optional, but at least one must be included.
 | illustrator | string name of the illustrator/artist |
 | type | currently unsupported. will be updated. |
 | p_no| string printed number | 
+| uuid | integer cards' UUID | 
 
 You can also combine multiple URL Parameters together, like
 
@@ -156,7 +157,7 @@ GET https://www.jpn-cards.com/v2/card/name=darkrai%20v
 HTTP Request:
 
 ```bash
-GET https://www.jpn-cards.com/v2/card/id=240?name=Clefable&illustrator=Sekio&p_no=20&set_id=1
+GET https://www.jpn-cards.com/v2/card/id=1598?name=Pawniard&illustrator=Tomokazu%20Komiya&p_no=50&set_id=9
 ```
 
 Response:
@@ -165,38 +166,31 @@ Response:
 {
   "data": [
     {
-      "id": 240,
+      "id": 1598,
       "setData": {
-        "name": "Dark Phantasma",
-        "printedTotal": "99",
-        "total": 99,
+        "name": "Time Gazer",
+        "printed_count": "88",
+        "card_count": 88,
         "year": "None",
-        "image_url": "https://content.tcgcollector.com/content/images/10/cc/27/10cc27ec6c88f4d22175f0a07aa9763adac1f332bfabb653c3763b9650c5e987.png",
-        "set_url": "https://www.tcgcollector.com/cards/jp/dark-phantasma"
+        "image_url": "https://content.tcgcollector.com/content/images/63/08/71/63087185abcff5448baa0a5cb0005ff20fe3b341349cdf1a68751fb9230f2dff.png",
+        "set_url": "https://www.tcgcollector.com/cards/jp/time-gazer"
       },
-      "name": "Clefable",
+      "name": "Pawniard",
       "types": [
-        "Psychic"
+        "Metal"
       ],
-      "hp": 100,
-      "evolvesFrom": "Clefairy",
-      "effect": [
-        {
-          "name": "Mystic Protection",
-          "text": "All of your Pokémon take 30 less damage from the attacks of your opponent's Dragon Pokémon (after applying Weakness and Resistance). You can't apply more than 1 Mystic Protection Ability at a time.",
-          "type": "Ability"
-        }
-      ],
+      "hp": 60,
+      "evolvesFrom": "None",
+      "effect": [],
       "attacks": [
         {
-          "name": "Moon Impact",
+          "name": "Reckless Charge",
           "cost": [
-            "Psychic",
-            "Colorless",
-            "Colorless"
+            "Metal"
           ],
-          "convertedEnergyCost": 3,
-          "damage": "90"
+          "convertedEnergyCost": 1,
+          "damage": "30",
+          "text": "This Pokémon also does 10 damage to itself."
         }
       ],
       "rules": [
@@ -204,31 +198,31 @@ Response:
       ],
       "weaknesses": [
         {
-          "type": "Metal",
+          "type": "Fire",
           "value": "×2"
         }
       ],
       "resistances": null,
       "retreatCost": [
-        "Colorless",
         "Colorless"
       ],
-      "convertedRetreatCost": 2,
+      "convertedRetreatCost": 1,
       "supertype": "Pokémon",
       "subtypes": [
-        ""
+        "Basic"
       ],
-      "rarity": "Uncommon",
+      "rarity": "Common",
       "cardLegalities": {
         "Unlimited": "True",
         "Standard": "False",
         "Expanded": "False"
       },
-      "artist": "Sekio",
-      "imageUrl": "https://content.tcgcollector.com/content/images/cf/38/e0/cf38e0dd52341a43edfd90b2d46e8294d5d8b758d4abb8fa9d1724809d17a273.jpg",
-      "cardUrl": "https://tcgcollector.com/cards/37907",
-      "sequenceNumber": 20,
-      "printedNumber": "20"
+      "artist": "Tomokazu Komiya",
+      "imageUrl": "https://content.tcgcollector.com/content/images/a9/80/c4/a980c443029f86cee8cebff777851a377a7606df5593dd16be2a5b20e646cabd.jpg",
+      "cardUrl": "https://tcgcollector.com/cards/37629",
+      "sequenceNumber": 50,
+      "printedNumber": "50",
+      "uuid": 16616909
     }
   ],
   "page": 1,
