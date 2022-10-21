@@ -238,11 +238,19 @@ Response:
 
 #### Get A Set
 
-Get a single set's information based on its unique identifier.
+Get a single set's information based on its unique identifier `id` or `uuid`.
 
 ##### HTTP Request
+ID: 
+
 ```bash
 GET https://www.jpn-cards.com/v2/set/<id>
+```
+
+UUID: 
+
+```bash
+GET https://www.jpn-cards.com/v2/set/uuid/<id>
 ```
 
 URL Parameters:
@@ -250,12 +258,15 @@ URL Parameters:
 | Parameter | Description |
 |---|---|
 | id | integer id of the set |
+| uuid | integer uuid of the set |
 
 * * * 
 
 ##### Example
 
 HTTP Request:
+
+ID: 
 
 ```bash
 GET https://www.jpn-cards.com/v2/set/1
@@ -274,7 +285,32 @@ Response:
   "date": "None",
   "card_count": 127,
   "printed_count": 127,
-  "set_code": "s11"
+  "set_code": "s11",
+  "uuid":72218005
+}
+```
+
+UUID: 
+
+```bash
+GET https://www.jpn-cards.com/v2/set/uuid/87454757
+```
+
+Response:
+
+```javascript
+{
+  "id": 260,
+  "name": "Gold, Silver, to a New World...",
+  "source_url": "https://www.tcgcollector.com/cards/jp/gold-silver-to-a-new-world",
+  "image_url": "https://assets.tcgcollector.com/build/images/default-expansion-logo.8b4f0ae4.png",
+  "language": "JPN",
+  "year": "2000",
+  "date": "February 4, 2000",
+  "card_count": 96,
+  "printed_count": 96,
+  "set_code": "neo1",
+  "uuid": 87454757
 }
 ```
 
@@ -317,7 +353,8 @@ Response:
     "date": "None",
     "card_count": 11,
     "printed_count": 11,
-    "set_code": "10ms"
+    "set_code": "10ms",
+    "uuid":81271647
   },
   {
     "id": 290,
@@ -329,7 +366,8 @@ Response:
     "date": "None",
     "card_count": 9,
     "printed_count": 9,
-    "set_code": "11ms"
+    "set_code": "11ms",
+    "uuid":19835893
   },
   {
     "id": 16,
@@ -341,7 +379,8 @@ Response:
     "date": "None",
     "card_count": 38,
     "printed_count": 38,
-    "set_code": "s8a"
+    "set_code": "s8a",
+    "uuid":27124441
   },
   ...
 ]

@@ -211,3 +211,9 @@ The number of cards in the set that is printed on the card. This differs from th
 The shorthand code for the set.
 
 * * *
+
+### uuid _integer_
+
+A stable id for each set. Output is an eight digit integer which is unique for each set. While the set' `id` may change over time, the `uuid` should always remain stable and constant. 
+
+* * *
