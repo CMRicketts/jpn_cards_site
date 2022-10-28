@@ -133,6 +133,9 @@ All URL parameters are optional, but at least one must be included.
 | type | currently unsupported. will be updated. |
 | p_no| string printed number | 
 | uuid | integer cards' UUID | 
+| rarity | string the cards' rarity |
+| subtype | string one of the cards' subtype |
+| type | string the type the pokemon is |
 
 You can also combine multiple URL Parameters together, like
 
@@ -387,3 +390,105 @@ Response:
 ```
 
 * * *
+
+### Other Queries
+
+#### Get All Artists
+
+Get all card artists
+
+##### HTTP Request
+
+```bash
+GET https://www.jpn-cards.com/v2/artists
+```
+
+URL Parameters:
+
+None
+
+Response:
+
+```javascript
+[
+  "tetsuya koizumi",
+  "Rianti Hidayat",
+  "Hironobu Yoshida",
+  "DOM",
+  "kanahei",
+  "D.A.G Inc.",
+  "Hideaki Hakozaki",
+  "Yukiko Baba",
+  "Yusuke Ishikawa",
+  "zig",
+  "Pani Kobayashi",
+  "KIYOTAKA OSHIYAMA",
+  "Zu-Ka",
+  ...
+]
+```
+
+#### Get All Subtypes
+
+Get all card Subtypes
+
+##### HTTP Request
+
+```bash
+GET https://www.jpn-cards.com/v2/subtypes
+```
+
+URL Parameters:
+
+None
+
+Response:
+
+```javascript
+[
+  "Single Strike",
+  "Stage 2",
+  "Supporter",
+  "Rapid Strike Trainer",
+  "Trainer ?",
+  "d",
+  "Hisuian",
+  "Basic",
+  "Full Art",
+  "Shining",
+  ...
+]
+```
+
+#### Get All Rarities
+
+Get all card rarities
+
+##### HTTP Request
+
+```bash
+GET https://www.jpn-cards.com/v2/rarities
+```
+
+URL Parameters:
+
+None
+
+Response:
+
+```javascript
+[
+  "LEGEND",
+  "Prism Rare",
+  "Rare",
+  "Rare Shining",
+  "Super Rare",
+  "Ultra Rare",
+  "Character Rare",
+  "None",
+  "Rare Holo LV.X",
+  "Shiny",
+  "Shiny Super Rare",
+  ...
+]
+```
