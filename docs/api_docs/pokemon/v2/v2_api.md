@@ -403,11 +403,11 @@ Get all card artists
 GET https://www.jpn-cards.com/v2/artists
 ```
 
-URL Parameters:
+##### URL Parameters:
 
-None
+`None`
 
-Response:
+##### Response:
 
 ```javascript
 [
@@ -438,11 +438,11 @@ Get all card Subtypes
 GET https://www.jpn-cards.com/v2/subtypes
 ```
 
-URL Parameters:
+##### URL Parameters:
 
-None
+`None`
 
-Response:
+##### Response:
 
 ```javascript
 [
@@ -470,11 +470,11 @@ Get all card rarities
 GET https://www.jpn-cards.com/v2/rarities
 ```
 
-URL Parameters:
+##### URL Parameters:
 
-None
+`None`
 
-Response:
+##### Response:
 
 ```javascript
 [
