@@ -400,7 +400,7 @@ Get all card artists
 ##### HTTP Request
 
 ```bash
-GET https://www.jpn-cards.com/v2/artists
+GET https://www.jpn-cards.com/v2/card/artists
 ```
 
 ##### URL Parameters:
@@ -435,7 +435,7 @@ Get all card Subtypes
 ##### HTTP Request
 
 ```bash
-GET https://www.jpn-cards.com/v2/subtypes
+GET https://www.jpn-cards.com/v2/card/subtypes
 ```
 
 ##### URL Parameters:
@@ -467,7 +467,7 @@ Get all card rarities
 ##### HTTP Request
 
 ```bash
-GET https://www.jpn-cards.com/v2/rarities
+GET https://www.jpn-cards.com/v2/card/rarities
 ```
 
 ##### URL Parameters:
