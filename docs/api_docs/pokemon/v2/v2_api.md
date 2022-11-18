@@ -136,6 +136,7 @@ All URL parameters are optional, but at least one must be included.
 | rarity | string the cards' rarity |
 | subtype | string one of the cards' subtype |
 | type | string the type the pokemon is |
+| set_code | string the set code of the set that the card belongs to |
 
 You can also combine multiple URL Parameters together, like
 
@@ -160,7 +161,7 @@ GET https://www.jpn-cards.com/v2/card/name=darkrai%20v
 HTTP Request:
 
 ```bash
-GET https://www.jpn-cards.com/v2/card/id=1598?name=Pawniard&illustrator=Tomokazu%20Komiya&p_no=50&set_id=9
+GET https://www.jpn-cards.com/v2/card/id=1598?name=Pawniard&illustrator=Tomokazu%20Komiya&p_no=50&set_id=9&set_code=s10D
 ```
 
 Response:
