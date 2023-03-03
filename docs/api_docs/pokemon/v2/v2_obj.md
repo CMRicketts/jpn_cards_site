@@ -115,13 +115,13 @@ The card art's artist.
 
 * * *
 
-### image_url _string_
+### imageUrl _string_
 
 The url pointing to the card's image. If there is no card image, then this will instead point to `https://assets.tcgcollector.com/build/images/default-card-image.789f6232.png`.
 
 * * *
 
-### card_url _string_
+### cardUrl _string_
 
 The URL which leads to the original card URL data.
 

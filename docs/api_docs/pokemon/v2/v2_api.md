@@ -130,7 +130,6 @@ All URL parameters are optional, but at least one must be included.
 | name | string name of the card |
 | set_id | integer id of the set the card is in | 
 | illustrator | string name of the illustrator/artist |
-| type | currently unsupported. will be updated. |
 | p_no| string printed number | 
 | uuid | integer cards' UUID | 
 | rarity | string the cards' rarity |
