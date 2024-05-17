@@ -145,6 +145,45 @@ A stable id for each card. Output is an eight digit integer which is unique for 
 
 * * *
 
+### prices _dict_
+
+A dictionary formatted as indicated below
+
+```json
+{
+    "priceAmount": value,
+    "priceCurrency": "value",
+    "dateUpdated": "value",
+    "listingUrl": "value",
+    "vendor": "value",
+    "variant": "value",
+    "condition": "value"
+}
+```
+
+#### prices.priceAmount _integer_
+The observed price in the `priceCurrency` denomination. 
+
+#### prices.priceCurrency _string_
+The observed price's currency. Currently can only be `JPY` (Japanese Yen) or `USD Cents` (U.S. Dollar Cents). 
+
+#### prices.dateUpdated _string_
+The date at which the card price was most recently observed. An old date indicates the price hasn't changed. 
+
+#### prices.listingUrl _string_
+The URL that was observed. 
+
+#### prices.vendor _string_
+The vendor that the price was obtained from.
+
+#### prices.variant _string_
+An observed vendor-defined variant. This shouldn't be used to track variants in the database, but as a sanity check for the end user developer
+
+#### prices.condition _string_
+An observed vendor-defined condition. 
+
+* * *
+
 
 ## Set Object
 

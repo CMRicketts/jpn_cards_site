@@ -28,84 +28,99 @@ URL Parameters:
 HTTP Request:
 
 ```bash
-GET https://www.jpn-cards.com/v2/card/id=11002
+GET https://www.jpn-cards.com/v2/card/id=9700
 ```
 
 Response:
 
 ```javascript
 {
-   "data":[
-      {
-         "id":11002,
-         "setData":{
-            "name":"Dragon Blade",
-            "printedTotal":"55",
-            "total":55,
-            "year":"None",
-            "image_url":"https://assets.tcgcollector.com/build/images/default-expansion-logo.8b4f0ae4.png",
-            "set_url":"https://www.tcgcollector.com/cards/jp/dragon-blade"
-         },
-         "name":"Serperior",
-         "types":[
-            "Grass"
-         ],
-         "hp":130,
-         "evolvesFrom":"Servine",
-         "effect":[
-            {
-               "name":"Royal Heal",
-               "text":"At any time between turns, heal 10 damage from each of your Pokémon.",
-               "type":"Ability"
-            }
-         ],
-         "attacks":[
-            {
-               "name":"Leaf Tornado",
-               "cost":[
-                  "Grass",
-                  "Colorless"
-               ],
-               "convertedEnergyCost":2,
-               "damage":"60",
-               "text":"Move as many Grass Energy attached to your Pokémon to your other Pokémon in any way you like."
-            }
-         ],
-         "rules":[
-            "None"
-         ],
-         "weaknesses":[
-            {
-               "type":"Fire",
-               "value":"×2"
-            }
-         ],
-         "resistances":null,
-         "retreatCost":[
+  "data": [
+    {
+      "id": 9700,
+      "setData": {
+        "name": "Awakening Psychic King",
+        "printed_count": "88",
+        "card_count": 88,
+        "year": "None",
+        "image_url": "https://static.tcgcollector.com/build/images/default-expansion-logo.8b4f0ae4.png",
+        "set_url": "https://www.tcgcollector.com/cards/jp/awakening-psychic-king"
+      },
+      "name": "Serperior",
+      "types": [
+        "Grass"
+      ],
+      "hp": 140,
+      "evolvesFrom": "Servine",
+      "effect": [],
+      "attacks": [
+        {
+          "name": "Coil",
+          "cost": [
             "Colorless"
-         ],
-         "convertedRetreatCost":1,
-         "supertype":"Pokémon",
-         "subtypes":[
-            ""
-         ],
-         "rarity":"Ultra Rare",
-         "cardLegalities":{
-            "Unlimited":"True",
-            "Standard":"False",
-            "Expanded":"False"
-         },
-         "artist":"None",
-         "imageUrl":"https://assets.tcgcollector.com/build/images/default-card-image.789f6232.png",
-         "cardUrl":"https://tcgcollector.com/cards/25305",
-         "sequenceNumber":54,
-         "printedNumber":"54"
-      }
-   ],
-   "page":1,
-   "pageSize":1,
-   "count":1,
-   "totalCount":1
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "40",
+          "text": "During your next turn, this Pokémon's attacks do 60 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance)."
+        },
+        {
+          "name": "Slashing Strike",
+          "cost": [
+            "Grass"
+          ],
+          "convertedEnergyCost": 1,
+          "damage": "80",
+          "text": "This Pokémon can't use Slashing Strike during your next turn."
+        }
+      ],
+      "rules": [
+        "None"
+      ],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "×2"
+        }
+      ],
+      "resistances": null,
+      "retreatCost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedRetreatCost": 2,
+      "supertype": "Pokémon",
+      "subtypes": [
+        "Stage 2"
+      ],
+      "rarity": "Uncommon",
+      "cardLegalities": {
+        "Unlimited": "True",
+        "Standard": "False",
+        "Expanded": "False"
+      },
+      "artist": "You Iribi",
+      "imageUrl": "https://static.tcgcollector.com/content/images/c4/e2/55/c4e25508257025c44486c7eb05a357be88e5245f60a2ccaba2d50355871389dc.jpg",
+      "cardUrl": "https://tcgcollector.com/cards/22921",
+      "sequenceNumber": 7,
+      "printedNumber": "7",
+      "uuid": 71766756,
+      "prices": [
+        {
+          "priceAmount": 300,
+          "priceCurrency": "USD Cents",
+          "dateUpdated": "05/14/2024",
+          "listingUrl": "https://www.pricecharting.com/game/pokemon-japanese-awakening-psychic-king/serperior-7",
+          "vendor": "Price Charting",
+          "variant": "Regular",
+          "condition": "Ungraded"
+        }
+      ]
+    }
+  ],
+  "page": 1,
+  "pageSize": 250,
+  "count": 1,
+  "totalCount": 1
 }
 ```
 
@@ -175,7 +190,7 @@ Response:
         "printed_count": "88",
         "card_count": 88,
         "year": "None",
-        "image_url": "https://content.tcgcollector.com/content/images/63/08/71/63087185abcff5448baa0a5cb0005ff20fe3b341349cdf1a68751fb9230f2dff.png",
+        "image_url": "https://static.tcgcollector.com/content/images/63/08/71/63087185abcff5448baa0a5cb0005ff20fe3b341349cdf1a68751fb9230f2dff.png",
         "set_url": "https://www.tcgcollector.com/cards/jp/time-gazer"
       },
       "name": "Pawniard",
@@ -221,15 +236,62 @@ Response:
         "Expanded": "False"
       },
       "artist": "Tomokazu Komiya",
-      "imageUrl": "https://content.tcgcollector.com/content/images/a9/80/c4/a980c443029f86cee8cebff777851a377a7606df5593dd16be2a5b20e646cabd.jpg",
+      "imageUrl": "https://static.tcgcollector.com/content/images/a9/80/c4/a980c443029f86cee8cebff777851a377a7606df5593dd16be2a5b20e646cabd.jpg",
       "cardUrl": "https://tcgcollector.com/cards/37629",
       "sequenceNumber": 50,
       "printedNumber": "50",
-      "uuid": 16616909
+      "uuid": 16616909,
+      "prices": [
+        {
+          "priceAmount": 50,
+          "priceCurrency": "JPY",
+          "dateUpdated": "03/13/2023",
+          "listingUrl": "https://www.cardrush-pokemon.jp/product/34651",
+          "vendor": "cardrush",
+          "variant": "Regular",
+          "condition": "A+"
+        },
+        {
+          "priceAmount": 30,
+          "priceCurrency": "JPY",
+          "dateUpdated": "03/13/2023",
+          "listingUrl": "https://www.c-labo-online.jp/product/193266",
+          "vendor": "clabo",
+          "variant": "Regular",
+          "condition": "NM"
+        },
+        {
+          "priceAmount": 50,
+          "priceCurrency": "JPY",
+          "dateUpdated": "03/13/2023",
+          "listingUrl": "https://shopping.fullcomp.jp//shopdetail/000000051240/p_s10d/page2/price_desc/",
+          "vendor": "fullcomp",
+          "variant": "Regular",
+          "condition": "A+"
+        },
+        {
+          "priceAmount": 149,
+          "priceCurrency": "USD Cents",
+          "dateUpdated": "05/15/2024",
+          "listingUrl": "https://www.pricecharting.com/game/pokemon-japanese-time-gazer/pawniard-50",
+          "vendor": "Price Charting",
+          "variant": "Regular",
+          "condition": "Ungraded"
+        },
+        {
+          "priceAmount": 30,
+          "priceCurrency": "JPY",
+          "dateUpdated": "03/13/2023",
+          "listingUrl": "https://yuyu-tei.jp/game_poc/carddetail/cardpreview.php?VER=s10D&CID=10050&MODE=sell",
+          "vendor": "yuyu-tei",
+          "variant": "Regular",
+          "condition": "NM"
+        }
+      ]
     }
   ],
   "page": 1,
-  "pageSize": 1,
+  "pageSize": 250,
   "count": 1,
   "totalCount": 1
 }
@@ -280,16 +342,16 @@ Response:
 ```javascript
 {
   "id": 1,
-  "name": "Lost Abyss",
-  "source_url": "https://www.tcgcollector.com/cards/jp/lost-abyss",
-  "image_url": "https://content.tcgcollector.com/content/images/62/08/30/620830370591a88a97a699ac672968e3d299e9a6b5eeb4d8541386e6fa8878fe.png",
+  "name": "Incandescent Arcana",
+  "source_url": "https://www.tcgcollector.com/cards/jp/incandescent-arcana",
+  "image_url": "https://static.tcgcollector.com/content/images/70/96/58/70965861e023d8ba18efc5ed298ce15ed466cbec5b2be78afb737bccb710fcbe.png",
   "language": "JPN",
   "year": "2022",
-  "date": "None",
-  "card_count": 127,
-  "printed_count": 127,
-  "set_code": "s11",
-  "uuid":72218005
+  "date": "September 2, 2022",
+  "card_count": 94,
+  "printed_count": 68,
+  "set_code": "s11a",
+  "uuid": 72218005
 }
 ```
 
@@ -306,7 +368,7 @@ Response:
   "id": 260,
   "name": "Gold, Silver, to a New World...",
   "source_url": "https://www.tcgcollector.com/cards/jp/gold-silver-to-a-new-world",
-  "image_url": "https://assets.tcgcollector.com/build/images/default-expansion-logo.8b4f0ae4.png",
+  "image_url": "https://static.tcgcollector.com/build/images/default-expansion-logo.8b4f0ae4.png",
   "language": "JPN",
   "year": "2000",
   "date": "February 4, 2000",
@@ -490,5 +552,74 @@ GET https://www.jpn-cards.com/v2/card/rarities
   "Shiny",
   "Shiny Super Rare",
   ...
+]
+```
+
+#### Get All Vendors
+
+Get all vendors who contribute prices to the API. Under development.
+
+##### HTTP Request
+
+```bash
+GET https://www.jpn-cards.com/v2/card/vendors
+```
+
+##### URL Parameters:
+
+`None`
+
+##### Response:
+
+```javascript
+[
+  {
+    "name": "cardrush",
+    "url": "PLACEHOLDER"
+  },
+  {
+    "name": "clabo",
+    "url": "PLACEHOLDER"
+  },
+  {
+    "name": "fullcomp",
+    "url": "PLACEHOLDER"
+  },
+  {
+    "name": "Price Charting",
+    "url": "PLACEHOLDER"
+  },
+  {
+    "name": "yuyu-tei",
+    "url": "PLACEHOLDER"
+  }
+]
+```
+
+#### Get All Variants
+
+Get all card variants observed in pricing data. Under development.
+
+##### HTTP Request
+
+```bash
+GET https://www.jpn-cards.com/v2/card/variants
+```
+
+##### URL Parameters:
+
+`None`
+
+##### Response:
+
+```javascript
+[
+  ...,
+  "15th Anniversary",
+  "1st Edition",
+  "600 Fan Club",
+  "Cracked Ice",
+  "Ditto",
+  ...,
 ]
 ```
