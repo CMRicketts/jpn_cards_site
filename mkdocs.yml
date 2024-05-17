@@ -41,7 +41,7 @@ theme:
         name: Switch to light mode
 
 nav:
-  - Home: "home.md"
+  - Home: home.md
   - 'API Documentation': 
     - "Japanese Pokemon TCG":
       - "Version 2": 
